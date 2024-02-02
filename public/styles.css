@@ -1,0 +1,120 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(137, 143, 245); /* Change to your desired color */
+
+}
+
+
+div {
+    margin-top: 30px;
+    background-color: lightgreen; /* Change to your desired color */
+}
+
+/* Add more styles as needed */
+h1 {
+text-align:center;
+}
+h2 {
+    text-align: center;
+    
+}
+
+/* public/styles.css */
+
+/* Style for all buttons */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0bda9c; /* Darker blue background color on hover */
+}
+
+/* Additional styling for specific buttons */
+/* Adjust these styles based on the specific buttons you want to target */
+
+/* Styling for Create Post button */
+form button {
+    background-color:  #f44336; /* Blue background color */
+}
+
+/* Styling for Edit and Delete buttons */
+div a {
+    margin-right: 10px; /* Add some space between Edit and Delete buttons */
+    text-decoration: none; /* Remove default underline on links */
+    color: #fff; /* White text color */
+    padding: 5px 10px;
+    background-color: #f44336; /* Red background color for Delete button */
+    border-radius: 3px;
+}
+
+/* Hover effect for Edit and Delete buttons */
+div a:hover {
+    background-color: #d32f2f; /* Darker red background color on hover */
+}
+
+/* Styling for Back to Home button */
+a.back-to-home {
+    margin-top: 20px; /* Add some space above the "Back to Home" button */
+    display: inline-block; /* Make it a block element to apply styles */
+    background-color: #f44336;  /* Blue background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white; /* White text color */
+    text-decoration: none; /* Remove default underline on links */
+}
+
+/* Hover effect for Back to Home button */
+a.back-to-home:hover {
+    background-color: #0bda9c; /* Darker blue background color on hover */
+}
+
+/* Style for the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items along the cross axis (vertically) */
+    justify-content: center; 
+}
+
+/* Style for form labels */
+form label {
+    margin-bottom: 5px; /* Add space between labels */
+}
+
+/* Style for form inputs and textarea */
+form input {
+margin-bottom:10px;
+width:800px;
+
+}
+form textarea {
+    margin-bottom: 10px; /* Add space between input elements */
+    width: 800px;
+    height: 200px;
+    resize:none;
+}
+
+/* Style for the "Create Post" button */
+form button {
+    padding: 10px 20px; /* Set padding to control button size */
+    background-color: #f50f0f; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    width: 200px;
+}
+
+/* Hover effect for the "Create Post" button */
+form button:hover {
+    background-color: #0bda9c; /* Darker green background color on hover */
+}
